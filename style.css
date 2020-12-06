@@ -1,0 +1,139 @@
+html {
+    background-color: #2D4059;
+}
+
+body {
+    font-family: Tahoma;
+    margin: 0px;
+}
+
+body h2{
+    font-size: 35px;
+    margin: 0px;
+}
+
+.header {
+    background-color: #ffffff;
+    /* height: 700px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* text-align: center; */
+    color: rgb(39, 39, 39);
+    justify-content: center;
+    /* margin: 0; */
+}
+
+.header h1{
+    font-size: 70px;
+    margin: 30px;
+}
+.image {
+    width: 400px;
+    border: solid #EA5455 1.4rem;
+    border-radius: 5px;
+    /* margin: 30px; */
+}
+
+.content {
+    margin: 0;
+    color: black;
+    background-color: #DECDC3;
+    height: 550px;
+    /* justify-content: center; */
+}
+
+.about{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about h2{
+    margin: 0px;
+}
+
+.information{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.left-info,
+.right-info {
+    /*background-image: url("images/hobbies.png");*/
+    background-color: #ffffff;
+    /* margin: 1rem; */
+    border-radius: 25px;
+    padding: 1rem;
+    width: 25rem;
+}
+
+.mid-info{
+    /* align-items: ; */
+    /*background-image: url("images/hobbies.png");*/
+    background-color: #ffe9bb;
+    margin: 2rem;
+    border-radius: 25px;
+    padding: 1rem;
+    width: 25rem;
+    align-items: flex-end;
+}
+.projects {
+    background-color:#2D4059;
+    color: white;
+}
+
+.projects h2{
+    display: flex;
+    justify-content: center;
+}
+
+.photos-section{
+    color: grey;
+}
+
+.photos-section{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 2.5rem;
+}
+
+.box-photo{
+  width: 20rem;
+  height: 20rem;
+  background-size: cover;
+  background-position: center;
+
+}
+.container{
+    margin: 1rem;
+  }
+  
+.box-photo-two{
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    font-weight: 600;
+    font-size: 1.75rem;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.text{
+    padding: 1rem;  
+  }
+
+#ui-ux{
+    background-image: url("Assets/UI-UX.png");
+}
+
+#python{
+    background-image: url("Assets/python-project.jpg");
+}
+
+#poster{
+    background-image: url("Assets/design.png");
+}

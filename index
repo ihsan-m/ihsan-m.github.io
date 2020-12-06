@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>My Portofolio</title>
+    </head>
+
+    <body>
+        <div class = "header">
+            <h1 class="welcome">Welcome to My Page!</h1>
+            <img 
+            class="image"
+            src ="Assets/ihsan_pict.jpg" 
+            alt="ihsan_pict"
+            />
+            <h3 class="name">Muhammad Hilmi Ihsan Mumtaaz</h3>
+        </div>
+        <div class="content">
+            <div class="about">
+                <h2>About</h2>
+                <p>Hello, my name is Ihsan and I am a full time student from Information Systems in University of Indonesia </p>
+            </div>
+            <div class="information">
+                <div class="left-info">
+                    <h3>Education</h3>
+                    <ul>
+                        <Li>SD Ananada Islamic School</Li>
+                        <Li>SMPN 45 Jakarta</Li>
+                        <Li>SMAN 84 Jakarta</Li>
+                    </ul>
+                </div>
+                <div class="right-info">
+                    <h3>Organization and Committee</h3>
+                    <ul>
+                        <Li>Creative Manager of Chronus 2020 </Li>
+                        <Li>Media Division Internship of DPM Fasilkom</Li>
+                        <Li>Web development SIG (maybe)</Li>
+                    </ul>
+                </div>
+            </div>
+            <div class="information">
+                <div class="mid-info">
+                    <h3>Interest</h3>
+                    <ul>
+                        <Li>Photography</Li>
+                        <Li>Badminton</Li>
+                        <Li>UI/UX</Li>
+                        <Li>Coding</Li>
+                        <Li>Valorant</Li>
+                    </ul>                   
+                </div>
+            </div>
+        </div>
+        <div class="projects">
+            <h2>My Projects</h2>
+            <div class="photos-section">
+                <div class="container">
+                    <div class="box-photo" id="ui-ux">
+                      <div class="box-photo-two box-photo">
+                        <div class="text"><i>UI/UX</i></div>
+                      </div>
+                    </div>
+                  </div>
+                <div class="container">
+                    <div class="box-photo" id="python">
+                        <div class="box-photo-two box-photo">
+                            <div class="text"><i>Python</i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="box-photo" id="poster">
+                        <div class="box-photo-two box-photo">
+                          <div class="text"><i>Poster</i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    </html>
